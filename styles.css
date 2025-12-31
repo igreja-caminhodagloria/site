@@ -1406,34 +1406,42 @@ img.img-fluid {
   }
 
   .celulas-slider-wrapper {
-    margin: 2rem auto;
+    margin: 2rem -1.5rem;
     padding: 1rem 0;
   }
 
   .celulas-slider-wrapper::before,
   .celulas-slider-wrapper::after {
-    width: 100px;
+    width: 40px;
   }
 
   .celulas-slide {
-    min-width: 300px;
-    height: 280px;
+    min-width: 85vw;
+    max-width: 85vw;
+    height: 400px;
+  }
+
+  .celulas-slide img {
+    object-fit: cover;
+    object-position: center;
   }
 
   .celulas-slide-overlay {
-    padding: 2rem;
+    padding: 2rem 1.5rem;
   }
 
   .celulas-slide-number {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .celulas-slide-overlay h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
   }
 
   .celulas-slide-overlay p {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
 
   .prayer-container {
@@ -1585,36 +1593,38 @@ img.img-fluid {
   }
 
   .celulas-slider-wrapper {
-    margin: 2rem 0;
+    margin: 2rem -1rem;
     padding: 0.5rem 0;
   }
 
   .celulas-slider-wrapper::before,
   .celulas-slider-wrapper::after {
-    width: 50px;
+    width: 30px;
   }
 
   .celulas-slide {
-    min-width: 260px;
-    height: 260px;
+    min-width: 88vw;
+    max-width: 88vw;
+    height: 380px;
   }
 
   .celulas-slide-overlay {
-    padding: 1.5rem;
+    padding: 1.5rem 1.2rem;
   }
 
   .celulas-slide-number {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
   }
 
   .celulas-slide-overlay h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
   }
 
   .celulas-slide-overlay p {
-    font-size: 0.95rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 
   .prayer-intro,
