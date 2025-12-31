@@ -1332,17 +1332,33 @@ img.img-fluid {
     max-width: 300px;
   }
 
+  #carouselSomosUm {
+    max-width: 100%;
+    margin: 2rem auto;
+    border-radius: 12px;
+  }
+
   .value-carousel-card {
-    height: 340px;
+    height: 280px;
   }
 
   .value-carousel-content {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
   }
 
   .value-icon-carousel {
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .value-carousel-content h3 {
+    font-size: 1.8rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .value-carousel-content p {
+    font-size: 1rem !important;
+    line-height: 1.6;
   }
 
   .album-grid {
@@ -1514,29 +1530,41 @@ img.img-fluid {
     font-size: 1rem;
   }
 
-  .value-carousel-card {
-    height: 300px;
-  }
-
-  .value-carousel-content h3 {
-    font-size: 2rem;
-  }
-
-  .value-carousel-content p {
-    font-size: 1rem;
-  }
-
-  .value-icon-carousel {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-
   #carouselSomosUm {
-    margin: 3rem auto;
+    margin: 2rem 0;
+    border-radius: 10px;
   }
 
   #carouselSomosUm .carousel-indicators {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  #carouselSomosUm .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+  }
+
+  .value-carousel-card {
+    height: 240px;
+  }
+
+  .value-carousel-content {
+    padding: 1rem 0.8rem;
+  }
+
+  .value-carousel-content h3 {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.8rem;
+  }
+
+  .value-carousel-content p {
+    font-size: 0.9rem !important;
+    line-height: 1.5;
+  }
+
+  .value-icon-carousel {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
   }
 
   .album-grid {
