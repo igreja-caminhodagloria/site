@@ -607,15 +607,6 @@ img.img-fluid {
   transform: translateY(-5px);
 }
 
-.album-card a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.album-card a:visited {
-  color: inherit;
-}
-
 .album-image {
   position: relative;
   width: 100%;
