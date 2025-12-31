@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caminho da Glória</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <!--Nav-bar do Site-->
+  <header class="cabeçalho">
+    <div class="cabeça">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarConteudo" aria-controls="navbarConteudo" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="texto-curto d-lg-none ms-2">Caminho da Glória</span>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarConteudo">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link titulo" href="#home">Home</a>
+              <a class="nav-item nav-link titulo" href="#celulas">Células</a>
+              <a class="nav-item nav-link titulo" href="#galeria">Fotos</a>
+              <a class="nav-item nav-link titulo" href="#dizimos-ofertas">Dízimos e Ofertas</a>
+              <a class="nav-item nav-link titulo" href="#pedido-oracao">Pedido de Oração</a>
+              <a class="nav-item nav-link titulo" href="#visite-nos">Visite-nos</a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+
+  <!--Tela inicial do site-->
+  <section id="home" class="hero-section">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="video/capa.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">Caminho da Glória</h1>
+      <p class="hero-subtitle">Uma Igreja que vive o evangelho em comunidade</p>
+
+      <div class="hero-buttons">
+        <a href="#visite-nos" class="btn-hero btn-hero-primary">Visite-nos</a>
+        <a href="https://www.facebook.com/edinho.fernandes.7" target="_blank" class="btn-hero btn-hero-secondary">Últimas Pregações</a>
+           </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Role para descobrir</span>
+    </div>
+  </section>
+
+  <!--Somos Um-->
+  <section id="somos-um" class="somos-um-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Somos Um</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">João 17:21 <br> Para que todos sejam um, Pai, como tu estás em mim e eu em ti, que eles também estejam em nós, para que o mundo creia que tu me enviaste</p>
+
+      <div id="carouselSomosUm" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselSomosUm" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselSomosUm" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselSomosUm" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="value-carousel-card" style="background-image: url('img/carrosel1.JPG');">
+              <div class="value-carousel-overlay"></div>
+              <div class="value-carousel-content">
+                <h3>Missão</h3>
+                <p>Adorar a Deus e levar o evangelho a todas as nações através das células</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="value-carousel-card" style="background-image: url('img/carrosel2.JPG');">
+              <div class="value-carousel-overlay"></div>
+              <div class="value-carousel-content">
+                <h3>Comunhão</h3>
+                <p>Para que todos sejam um só, em amor, fé e propósito</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="value-carousel-card" style="background-image: url('img/carrosel3.JPG');">
+              <div class="value-carousel-overlay"></div>
+              <div class="value-carousel-content">
+                <h3>Verdade</h3>
+                <p>Fundamentados na Sagrada Escritura e na mensagem do evangelho</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Seção "CELULAS"-->
+  <section id="celulas" class="celulas-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Células</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">Pequenos grupos, grandes impactos. Nossas células são o coração da nossa comunidade, onde vivemos o evangelho juntos.</p>
+
+      <div class="celulas-content">
+        <div class="celulas-text">
+          <p>"Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai, do Filho e do Espírito Santo." - Mateus 28:19</p>
+          <p>As células são pequenos grupos que se reúnem semanalmente para vivenciar a essência do evangelho de forma prática e transformadora. É onde compartilhamos vida, crescemos na fé e nos tornamos uma verdadeira família em Cristo.</p>
+          <p>Através das células, multiplicamos discípulos, fortalecemos relacionamentos e cumprimos a missão de alcançar o próximo com o amor de Deus. Cada encontro é uma oportunidade de comunhão, edificação e serviço.</p>
+        </div>
+        <div class="celulas-image">
+          <img src="img/celulas/celulas.jpg" alt="Células">
+        </div>
+      </div>
+
+      <div class="celulas-slider-wrapper">
+        <div class="celulas-slider-track">
+          <div class="celulas-slide">
+            <img src="img/celulas/1.jpeg" alt="Comunidade">
+            <div class="celulas-slide-overlay">
+              <h3>Comunidade</h3>
+              <p>Vivemos em comunidade, compartilhando vida e crescimento espiritual</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/2.jpeg" alt="Multiplicação">
+            <div class="celulas-slide-overlay">
+              <h3>Multiplicação</h3>
+              <p>Discipulado que multiplica e transforma vidas através de células</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/ekballo.jpeg" alt="Missão">
+            <div class="celulas-slide-overlay">
+              <h3>Missão</h3>
+              <p>Alcançar o próximo e fazer discípulos em todas as nações</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/celula-laercio.jpeg" alt="Família">
+            <div class="celulas-slide-overlay">
+              <h3>Família</h3>
+              <p>Unidos como família, fortalecidos pelo amor de Cristo</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/1.jpeg" alt="Comunidade">
+            <div class="celulas-slide-overlay">
+              <h3>Comunidade</h3>
+              <p>Vivemos em comunidade, compartilhando vida e crescimento espiritual</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/2.jpeg" alt="Multiplicação">
+            <div class="celulas-slide-overlay">
+              <h3>Multiplicação</h3>
+              <p>Discipulado que multiplica e transforma vidas através de células</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/ekballo.jpeg" alt="Missão">
+            <div class="celulas-slide-overlay">
+              <h3>Missão</h3>
+              <p>Alcançar o próximo e fazer discípulos em todas as nações</p>
+            </div>
+          </div>
+          <div class="celulas-slide">
+            <img src="img/celulas/celula-laercio.jpeg" alt="Família">
+            <div class="celulas-slide-overlay">
+              <h3>Família</h3>
+              <p>Unidos como família, fortalecidos pelo amor de Cristo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-center">
+        <a href="celulas.html" class="btn-discover">Conheça Nossas Células</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Seção "MÍDIA DE FOTOS"-->
+  <section id="galeria" class="galeria-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Mídia de Fotos</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">Reviva os momentos marcantes da nossa Igreja através de fotos e memórias especiais</p>
+
+      <div class="album-grid">
+        <div class="album-card">
+          <div class="album-image">
+            <img src="img/culto-adoracao.jpeg" alt="Cultos de Adoração">
+          </div>
+          <div class="album-info">
+            <h3 class="album-title">Cultos de Adoração</h3>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-image">
+            <img src="img/celulas/celulas-fotos.jpg" alt="Células">
+          </div>
+          <div class="album-info">
+            <h3 class="album-title">Células</h3>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-image">
+            <img src="img/eventos-especiais.jpg" alt="Eventos Especiais">
+          </div>
+          <div class="album-info">
+            <h3 class="album-title">Eventos Especiais</h3>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-image">
+            <img src="img/culto-ceia.jpg" alt="Comunidade">
+          </div>
+          <div class="album-info">
+            <h3 class="album-title">Cultos de Santa Ceia</h3>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-image">
+            <img src="img/escola-criancas.JPG" alt="Celebrações">
+          </div>
+          <div class="album-info">
+            <h3 class="album-title">EBI - Escola Biblíca Infantil</h3>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-image">
+            <img src="img/culto-familia.jpg" alt="Momentos Especiais">
+          </div>
+          <div class="album-info">
+            <h3 class="album-title">Culto da Família</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-center">
+        <a href="galeria.html" class="btn-discover">Ver todas as Fotos</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Seção "DÍZIMOS E OFERTAS"-->
+  <section id="dizimos-ofertas" class="dizimos-ofertas-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Dízimos e Ofertas</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">Honrar a Deus com nossas finanças é um ato de adoração e gratidão. Através dos dízimos e ofertas, contribuímos para a expansão do Reino e para a obra de Deus em nossa comunidade.</p>
+
+      <div class="dizimos-content">
+        <div class="dizimos-image">
+          <img src="img/dizimos.JPG" alt="Dízimos e Ofertas">
+        </div>
+        <div class="dizimos-text">
+          <p>"Todos os dízimos da terra pertencem ao Senhor; são consagrados ao Senhor." - Levítico 27:30</p>
+          <p>O dízimo é uma prática bíblica que reconhece que tudo pertence a Deus. É um ato de fé, obediência e gratidão pelas bênçãos recebidas. Além do dízimo, as ofertas são um gesto de amor e compromisso com a obra de Deus, permitindo que mais vidas sejam alcançadas.</p>
+        </div>
+      </div>
+
+      <div class="btn-center">
+        <a href="dizimos.html" class="btn-discover">Saiba Mais e Contribua</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Pedido de Oração -->
+  <section id="pedido-oracao" class="oracao-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Pedido de Oração</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">"A oração feita por um justo é poderosa e eficaz" - Tiago 5:16</p>
+
+      <div class="prayer-container">
+        <div class="prayer-intro">
+          <div class="prayer-icon-large">🙏</div>
+          <h3>Ore Conosco</h3>
+          <p>Compartilhe suas necessidades conosco. Nossa equipe de intercessão está pronta para levar suas petições diante do Senhor. Acreditamos no poder transformador da oração e queremos estar ao seu lado neste momento.</p>
+        </div>
+
+        <div class="prayer-form-container form-container">
+          <form class="prayer-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" class="form-input nome-input" placeholder="Digite seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="form-input telefone-input" placeholder="(00) 00000-0000" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Seu Pedido de Oração</label>
+              <textarea id="mensagem" class="form-input form-textarea mensagem-textarea" rows="6" placeholder="Compartilhe seu pedido de oração..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit enviar-btn">Enviar Pedido de Oração</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Visite Nos-->
+  <section id="visite-nos" class="visit-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Visite-nos</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">Será uma honra receber você em nossos cultos. Somos uma comunidade acolhedora que deseja compartilhar a presença de Deus com você.</p>
+
+      <div class="visit-welcome">
+        <h3>"Alegrei-me quando me disseram: Vamos à casa do Senhor" - Salmos 122:1</h3>
+      </div>
+
+      <div class="visit-content">
+        <div class="visit-info">
+          <div class="info-item info-item-quando">
+            <div class="info-icon">📅</div>
+            <div class="info-details">
+              <h3>Quando nos Visitar</h3>
+              <div class="schedule">
+                <p class="day">Domingo</p>
+                <p class="time">19:30 às 21:45</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-item info-item-onde">
+            <div class="info-icon">📍</div>
+            <div class="info-details">
+              <h3>Nosso Endereço</h3>
+              <p>Rua Francisco Bertasso, 303<br>Centro - Pirapozinho<br>CEP: 19200-000</p>
+              <a href="https://www.google.com/maps/place/Igreja+Evang%C3%A9lica+Caminho+da+Gl%C3%B3ria/@-22.2780165,-51.5033924,17z/data=!3m1!4b1!4m6!3m5!1s0x94938d9412b1f5d1:0xcea0c0fcb95f132f!8m2!3d-22.2780215!4d-51.5008228!16s%2Fg%2F11rsf6lfvj?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-maps">Ver no Mapa</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <div class="map-overlay">
+            <p>Clique para visualizar no mapa</p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9992957857157!2d-51.5033923597173!3d-22.27801651578798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94938d9412b1f5d1%3A0xcea0c0fcb95f132f!2sIgreja%20Evang%C3%A9lica%20Caminho%20da%20Gl%C3%B3ria!5e0!3m2!1spt-BR!2sbr!4v1757597976708!5m2!1spt-BR!2sbr"
+            width="100%"
+            style="border:0;"
+            allowfullscreen
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--RODAPÉ DO SITE-->
+  <footer class="rodapé">
+    <div class="cabeça">
+      <p>&copy; 2025 Igreja Caminho da Glória. Todos os direitos reservados.</p>
+      <span><a href="https://www.instagram.com/caminho.da.gloria/?hl=en"><img src="img/instagram.png" width="50"></a></span>
+      <span><a href="https://www.youtube.com/@Pr.edinhofernandes"><img src="img/youtube.png" width="50"></a></span>
+      <span><a href="https://open.spotify.com/playlist/5pTQ5KzP4yA1rBQH88eOJP?si=i8j8I1E2SWW5aYKthIpBRw&pi=F6V6hE-lQ12D4"><img src="img/spotfy.png" width="60"></a></span>
+      <span><a href="https://www.facebook.com/edinho.fernandes.7?locale=pt_BR"><img src="img/facebook.png" width="60"></a></span>
+    </div>
+  </footer>
+
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

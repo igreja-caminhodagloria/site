@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caminho da Glória</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="celulas.css">
+  
+</head>
+<body>
+
+  <!--Nav-bar do Site-->
+  <header class="cabeçalho">
+    <div class="cabeça">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarConteudo" aria-controls="navbarConteudo" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="texto-curto d-lg-none ms-2">Caminho da Glória</span>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarConteudo">
+             <div class="navbar-nav">
+              <a class="nav-item nav-link titulo" href="index.html">Home</a>
+              <a class="nav-item nav-link titulo" href="galeria.html">Fotos</a>
+              <a class="nav-item nav-link titulo" href="dizimos.html">Dízimos e Ofertas</a>
+              <a class="nav-item nav-link titulo" href="celulas.html">Conheça a Célula</a>
+              <a class="nav-item nav-link titulo" href="index.html">Pedido de Oração</a>
+              <a class="nav-item nav-link titulo" href="index.html">Visite-nos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-background-image"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">Células</h1>
+      <p class="hero-subtitle">Pequenos grupos, grande impacto. Vivendo autenticamente o evangelho juntos.</p>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Role para descobrir</span>
+    </div>
+  </section>
+
+  <section class="what-cells-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>O Que São Células?</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">
+        "Portanto, vão e façam discípulos de todas as nações, batizando-os em nome do Pai, do Filho e do Espírito Santo, ensinando-os a guardar todas as coisas que tenho ordenado a vocês. E eis que estou com vocês todos os dias até o fim dos tempos." - Mateus 28:19-20
+      </p>
+
+      <div id="carouselCelulas" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/celulas/celula-laercio.jpeg" class="d-block w-100" alt="Célula El Shadday">
+          </div>
+          <div class="carousel-item">
+            <img src="img/celulas/ekballo.jpeg" class="d-block w-100" alt="Célula Ekballo">
+          </div>
+          <div class="carousel-item">
+            <img src="img/celulas/1.jpeg" class="d-block w-100" alt="Célula Elhoim">
+          </div>
+          <div class="carousel-item">
+            <img src="img/celulas/2.jpeg" class="d-block w-100" alt="Célula Pastor">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCelulas" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCelulas" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="cells-list-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Conheça Nossas Células</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">Ainda não frequenta uma célula? Escolha a que mais combina com você e venha fazer parte!</p>
+
+      <div class="cells-grid">
+
+        <div class="cell-card">
+          <div class="cell-image">
+            <img src="img/celulas/celula-pastor-capa.jpg" alt="Célula Pastor">
+          </div>
+          <div class="cell-content">
+            <h3>Yeshua</h3>
+            <div class="cell-info">
+              <p><strong>Líder:</strong> Pr. Edinho</p>
+              <p><strong>Data:</strong> Terça-feira às 20:00</p>
+              <p><strong>Endereço:</strong> Rua Euclides da Cunha, 919 - Centro</p>
+            </div>
+            <button class="btn-cell" data-bs-toggle="modal" data-bs-target="#modalPastor">Sobre</button>
+          </div>
+        </div>
+
+        <div class="cell-card">
+          <div class="cell-image">
+            <img src="img/celulas/celula-laercio.jpeg" alt="Célula El Shadday">
+          </div>
+          <div class="cell-content">
+            <h3>El Shadday</h3>
+            <div class="cell-info">
+              <p><strong>Líder:</strong> Laércio</p>
+              <p><strong>Data:</strong> Terça-feira às 20:00</p>
+              <p><strong>Endereço:</strong> Rua Braz Martins, 241 - Vila Zélia</p>
+            </div>
+            <button class="btn-cell" data-bs-toggle="modal" data-bs-target="#modalElShadday">Sobre</button>
+          </div>
+        </div>
+
+        <div class="cell-card">
+          <div class="cell-image">
+            <img src="img/celulas/ekballo.jpeg" alt="Célula Ekballo">
+          </div>
+          <div class="cell-content">
+            <h3>Ekballo</h3>
+            <div class="cell-info">
+              <p><strong>Líder:</strong> Cauê</p>
+              <p><strong>Data:</strong> Terça-feira às 20:00</p>
+              <p><strong>Endereço:</strong> Rua Eduardo Ferreira Paz, 34 - Jardim Xavier</p>
+            </div>
+            <button class="btn-cell" data-bs-toggle="modal" data-bs-target="#modalEkballo">Sobre</button>
+          </div>
+        </div>
+
+        <div class="cell-card">
+          <div class="cell-image">
+            <img src="img/celulas/celula-carlos-capa.jpg" alt="Célula Elhoim">
+          </div>
+          <div class="cell-content">
+            <h3>Elhoim</h3>
+            <div class="cell-info">
+              <p><strong>Líder:</strong> Carlos</p>
+              <p><strong>Data:</strong> Terça-feira às 20:00</p>
+              <p><strong>Endereço:</strong> Rua Vereador Orlando Beraldo, 171 - Residencial Alvorada</p>
+            </div>
+            <button class="btn-cell" data-bs-toggle="modal" data-bs-target="#modalElhoim">Sobre</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modais das Células -->
+  <div class="modal fade" id="modalElShadday" tabindex="-1" aria-labelledby="modalElShaddayLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalElShaddayLabel">Célula El Shadday</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-cell-info">
+            <p><strong>Líder:</strong> Laércio</p>
+            <p><strong>Data:</strong> Terça-feira às 20:00</p>
+            <p><strong>Endereço:</strong> Rua Braz Martins, 241 - Vila Zélia</p>
+          </div>
+
+          <div class="modal-description">
+            <h3>Sobre a Célula</h3>
+            <p>A célula El Shadday é um grupo acolhedor que se reúne semanalmente para comunhão, estudo da Palavra e intercessão. Nosso propósito é crescer juntos na fé, edificar uns aos outros e alcançar vidas para Cristo.</p>
+            <p>Venha fazer parte desta família e experimentar o amor de Deus em comunidade!</p>
+          </div>
+
+          <div id="carouselElShadday" class="carousel slide modal-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/celulas/celula-laercio-1.jpg" class="d-block w-100" alt="El Shadday 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-laercio-2.jpg" class="d-block w-100" alt="El Shadday 2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselElShadday" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselElShadday" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+
+          <a href="https://maps.app.goo.gl/q4Muq1FeXe4EoZBx7" target="_blank" class="btn-modal-maps">Como Chegar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalEkballo" tabindex="-1" aria-labelledby="modalEkballoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalEkballoLabel">Célula Ekballo</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-cell-info">
+            <p><strong>Líder:</strong> Cauê</p>
+            <p><strong>Data:</strong> Terça-feira às 20:00</p>
+            <p><strong>Endereço:</strong> Rua Eduardo Ferreira Paz, 34 - Jardim Xavier</p>
+          </div>
+
+          <div class="modal-description">
+            <h3>Sobre a Célula</h3>
+            <p>Ekballo significa "enviar" em grego, e esse é o nosso propósito: ser enviados para compartilhar o evangelho. Nossa célula é focada em evangelismo, discipulado e multiplicação de vidas transformadas por Cristo.</p>
+            <p>Junte-se a nós e faça parte desta missão de alcançar corações para o Reino de Deus!</p>
+          </div>
+
+          <div id="carouselEkballo" class="carousel slide modal-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/celulas/celula-caue-1.jpg" class="d-block w-100" alt="Ekballo 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-caue-2.jpg" class="d-block w-100" alt="Ekballo 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-caue-3.jpg" class="d-block w-100" alt="Ekballo 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEkballo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselEkballo" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+
+          <a href="https://maps.app.goo.gl/vWvSHTQKdJYFjV138" target="_blank" class="btn-modal-maps">Como Chegar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalElhoim" tabindex="-1" aria-labelledby="modalElhoimLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalElhoimLabel">Célula Elhoim</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-cell-info">
+            <p><strong>Líder:</strong> Carlos</p>
+            <p><strong>Data:</strong> Terça-feira às 20:00</p>
+            <p><strong>Endereço:</strong> Rua Vereador Orlando Beraldo, 171 - Residencial Alvorada</p>
+          </div>
+
+          <div class="modal-description">
+            <h3>Sobre a Célula</h3>
+            <p>Elhoim representa o Deus Todo-Poderoso, e nossa célula busca viver na presença dEle. Reunimo-nos para adoração, estudo profundo da Palavra e relacionamentos genuínos baseados no amor de Cristo.</p>
+            <p>Venha experimentar a presença de Deus de forma poderosa em nossa comunidade!</p>
+          </div>
+
+          <div id="carouselElhoim" class="carousel slide modal-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/celulas/celula-carlos-1.jpg" class="d-block w-100" alt="Elhoim 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-carlos-2.jpg" class="d-block w-100" alt="Elhoim 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-carlos-3.jpg" class="d-block w-100" alt="Elhoim 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselElhoim" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselElhoim" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+
+          <a href="https://maps.app.goo.gl/ustSen2asDgKvySg9" target="_blank" class="btn-modal-maps">Como Chegar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalPastor" tabindex="-1" aria-labelledby="modalPastorLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalPastorLabel">Célula Pastor</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-cell-info">
+            <p><strong>Líder:</strong> Pr. Edinho</p>
+            <p><strong>Data:</strong> Terça-feira às 20:00</p>
+            <p><strong>Endereço:</strong> Rua Euclides da Cunha, 919 - Centro</p>
+          </div>
+
+          <div class="modal-description">
+            <h3>Sobre a Célula</h3>
+            <p>A célula do Pastor é um espaço de ensino profundo da Palavra, formação de líderes e desenvolvimento espiritual. Buscamos não apenas aprender, mas viver os princípios do Reino de Deus em nossa vida diária.</p>
+            <p>Se você deseja crescer e se desenvolver na fé, este é o lugar certo para você!</p>
+          </div>
+
+          <div id="carouselPastor" class="carousel slide modal-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/celulas/celula-pastor-1.jpg" class="d-block w-100" alt="Pastor 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-pastor-2.jpg" class="d-block w-100" alt="Pastor 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/celulas/celula-pastor-3.jpg" class="d-block w-100" alt="Pastor 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPastor" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPastor" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+
+          <a href="https://maps.app.goo.gl/mSsFkDewMVrjXYy66" target="_blank" class="btn-modal-maps">Como Chegar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--RODAPÉ DO SITE-->
+  <footer class="rodapé">
+    <div class="cabeça">
+      <p>&copy; 2025 Igreja Caminho da Glória. Todos os direitos reservados.</p>
+      <span><a href="https://www.instagram.com/caminho.da.gloria/?hl=en"><img src="img/instagram.png" width="50"></a></span>
+      <span><a href="https://www.youtube.com/@Pr.edinhofernandes"><img src="img/youtube.png" width="50"></a></span>
+      <span><a href="https://www.youtube.com/@Pr.edinhofernandes"><img src="img/spotfy.png" width="60"></a></span>
+    </div>
+  </footer>
+
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

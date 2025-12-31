@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotos - Caminho da Glória</title>
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+
+  <header class="cabeçalho">
+    <div class="cabeça">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarConteudo" aria-controls="navbarConteudo" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span class="texto-curto d-lg-none ms-2">Caminho da Glória</span>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarConteudo">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link titulo" href="index.html">Home</a>
+              <a class="nav-item nav-link titulo" href="galeria.html">Fotos</a>
+              <a class="nav-item nav-link titulo" href="dizimos.html">Dízimos e Ofertas</a>
+              <a class="nav-item nav-link titulo" href="celulas.html">Células</a>
+              <a class="nav-item nav-link titulo" href="index.html#pedido-oracao">Pedido de Oração</a>
+              <a class="nav-item nav-link titulo" href="index.html#visite-nos">Visite-nos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-background-image"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">Mídia de Fotos</h1>
+      <p class="hero-subtitle">Reviva os momentos especiais da nossa comunidade</p>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Role para descobrir</span>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Nossos Cultos</h2>
+        <div class="header-line"></div>
+      </div>
+
+      <p class="section-description">Acompanhe os momentos marcantes dos nossos cultos através das fotos</p>
+
+
+      <div class="gallery-grid" id="galleryGrid">
+
+        <div class="gallery-card" data-tipo="eventos">
+          <div class="card-icon">📸</div>
+          <h3 class="card-title">Geral</h3>
+          <p class="card-description">Fotos ao decorrer do ano</p>
+          <a class="btn-gallery" href="https://drive.google.com/drive/u/0/folders/1gyBJq-O-1VGcYQjNzHzNTkzJXO5JahaF">Ver Fotos</a>
+        </div>
+
+        <div class="gallery-card" data-tipo="eventos">
+          <div class="card-icon">🎈</div>
+          <h3 class="card-title">Eventos</h3>
+          <p class="card-description">Eventos de Ano Novo, Culto das Mulheres</p>
+          <button class="btn-gallery" data-bs-toggle="modal" data-bs-target="#modalEventos">Ver Fotos</button>
+        </div>
+
+        <div class="gallery-card" data-tipo="adoracao">
+          <div class="card-icon">🙏</div>
+          <h3 class="card-title">Culto de Adoração</h3>
+          <p class="card-description">Momentos de louvor e adoração ao Senhor</p>
+          <button class="btn-gallery" data-bs-toggle="modal" data-bs-target="#modalAdoracao">Ver Fotos</button>
+        </div>
+
+        <div class="gallery-card" data-tipo="ceia">
+          <div class="card-icon">🍷</div>
+          <h3 class="card-title">Culto de Ceia</h3>
+          <p class="card-description">Celebração da Santa Ceia com comunhão e adoração</p>
+          <button class="btn-gallery" data-bs-toggle="modal" data-bs-target="#modalCeia">Ver Fotos</button>
+        </div>
+
+        <div class="gallery-card" data-tipo="celebracao">
+          <div class="card-icon">🎵</div>
+          <h3 class="card-title">Culto de Celebração</h3>
+          <p class="card-description">Celebração especial com todas as famílias</p>
+          <button class="btn-gallery" data-bs-toggle="modal" data-bs-target="#modalCelebracao">Ver Fotos</button>
+        </div>
+
+        <div class="gallery-card" data-tipo="primicias">
+          <div class="card-icon">🌾</div>
+          <h3 class="card-title">Culto de Primícias</h3>
+          <p class="card-description">Entrega das primícias e gratidão pelas bênçãos</p>
+          <button class="btn-gallery" data-bs-toggle="modal" data-bs-target="#modalPrimicias">Ver Fotos</button>
+        </div>
+
+        <div class="gallery-card" data-tipo="familia">
+          <div class="card-icon">👨‍👩‍👧‍👦</div>
+          <h3 class="card-title">Culto da Família</h3>
+          <p class="card-description">Celebração especial com todas as famílias</p>
+          <button class="btn-gallery" data-bs-toggle="modal" data-bs-target="#modalFamilia">Ver Fotos</button>
+        </div>
+
+        <div class="gallery-card" data-tipo="ebi">
+          <div class="card-icon">🧒</div>
+          <h3 class="card-title">EBI - Escola Biblíca Infantil</h3>
+          <p class="card-description">Fotos dos nossos mini-discípulos</p>
+          <a class="btn-gallery" href="https://drive.google.com/drive/folders/1E95W77cKH3laWFtVf4YQEhz6AMJ3hUbd?usp=drive_link">Ver Fotos</a>
+        </div>
+
+      </div>
+
+      <div class="no-results" id="noResults" style="display: none;">
+        <div class="no-results-icon">🔍</div>
+        <h3>Nenhum culto encontrado</h3>
+        <p>Não há cultos disponíveis para este filtro no momento</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="modalEventos" tabindex="-1" aria-labelledby="modalEventosLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalEventosLabel">Eventos</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">Selecione a data do culto para ver as fotos:</p>
+          <div class="dates-list">
+            <a href="https://drive.google.com/drive/u/0/folders/1RNRzHVFE3kz9L1HzljYiewLBi5xlf_1P" target="_blank" class="date-item">
+              <span class="date-icon">✨</span>
+              <span class="date-text">Ano Novo 2026</span>
+            </a>
+          </div><br>
+
+          <div class="dates-list">
+            <a href="https://drive.google.com/drive/folders/1UPGjZrRyYGPBZFxYQvJqSpi03vRIgGA_?usp=drive_link" target="_blank" class="date-item">
+              <span class="date-icon">🌷</span>
+              <span class="date-text">Culto das Mulheres</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalCeia" tabindex="-1" aria-labelledby="modalCeiaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalCeiaLabel">Culto de Ceia</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">Selecione a data do culto para ver as fotos:</p>
+          <div class="dates-list">
+            <a href="https://drive.google.com/drive/u/0/folders/1zoMvKHThrkBe5pJdhTIMYfpAwP47JC0g" target="_blank" class="date-item">
+              <span class="date-icon">📅</span>
+              <span class="date-text">21 de Dezembro de 2024</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalAdoracao" tabindex="-1" aria-labelledby="modalAdoracaoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalAdoracaoLabel">Culto de Adoração</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">Selecione a data do culto para ver as fotos:</p>
+          <div class="dates-list">
+            <a href="https://drive.google.com/drive/u/0/folders/1Le84B4daN-iV9BOqaUY5yPnXY7bIbWIW" target="_blank" class="date-item">
+              <span class="date-icon">📅</span>
+              <span class="date-text">28 de Dezembro de 2025</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalPrimicias" tabindex="-1" aria-labelledby="modalPrimiciasLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalPrimiciasLabel">Culto de Primícias</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">Selecione a data do culto para ver as fotos:</p>
+          <div class="dates-list">
+              <span class="date-text">Ainda não há fotos disponíveis 🙁</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalFamilia" tabindex="-1" aria-labelledby="modalFamiliaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalFamiliaLabel">Culto da Família</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">Selecione a data do culto para ver as fotos:</p>
+          <div class="dates-list">
+              <span class="date-text">Ainda não há fotos disponíveis🙁</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalCelebracao" tabindex="-1" aria-labelledby="modalCelebracaoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalCelebracaoLabel">Culto de Celebração</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-description">Selecione a data do culto para ver as fotos:</p>
+          <div class="dates-list">
+            <a href="https://drive.google.com/drive/u/0/folders/1TDbxgy49sk5R2bqepQdcHCtlWmQtSjdT" target="_blank" class="date-item">
+              <span class="date-icon">📅</span>
+              <span class="date-text">14 de Dezembro de 2025</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="rodapé">
+    <div class="cabeça">
+      <p>&copy; 2025 Igreja Caminho da Glória. Todos os direitos reservados.</p>
+      <span><a href="https://www.instagram.com/caminho.da.gloria/?hl=en"><img src="img/instagram.png" width="50"></a></span>
+      <span><a href="https://www.youtube.com/@Pr.edinhofernandes"><img src="img/youtube.png" width="50"></a></span>
+      <span><a href="https://www.youtube.com/@Pr.edinhofernandes"><img src="img/spotfy.png" width="60"></a></span>
+    </div>
+  </footer>
+
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
