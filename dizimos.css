@@ -573,6 +573,7 @@ header.cabeçalho {
 
   .pix-card {
     padding: 2rem;
+    max-width: 100%;
   }
 
   .dizimos-dual-content {
@@ -580,12 +581,40 @@ header.cabeçalho {
     gap: 2rem;
   }
 
+  .dizimos-image-content {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .dizimos-image-content img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
   .dizimos-text-content {
-    padding: 2rem;
+    padding: 1.5rem;
+    width: 100%;
   }
 
   .dizimos-text-content .pix-card {
     padding: 1.5rem;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .pix-key {
+    font-size: 1rem;
+    word-break: break-all;
+    letter-spacing: 1px;
+  }
+
+  .btn-copy-pix {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 250px;
   }
 
   .verse-highlight p {
@@ -625,6 +654,62 @@ header.cabeçalho {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    padding: 3rem 1rem;
+  }
+
+  .verse-card {
+    padding: 1.5rem;
+  }
+
+  .verse-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .verse-card p {
+    font-size: 1rem;
+  }
+
+  .dizimos-image-content {
+    border-radius: 12px;
+  }
+
+  .dizimos-text-content {
+    padding: 1rem;
+  }
+
+  .dizimos-text-content .pix-card {
+    padding: 1.2rem;
+  }
+
+  .pix-icon {
+    font-size: 3rem;
+  }
+
+  .pix-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .pix-key {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+  }
+
+  .btn-copy-pix {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .verse-highlight h3 {
+    font-size: 1.3rem;
+  }
+
+  .verse-highlight p {
+    font-size: 1rem;
   }
 }
 
