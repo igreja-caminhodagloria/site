@@ -612,7 +612,10 @@ img.img-fluid {
   color: inherit;
 }
 
-.album-card a:visited {
+.album-card a:hover,
+.album-card a:visited,
+.album-card a:active {
+  text-decoration: none;
   color: inherit;
 }
 
@@ -1611,4 +1614,3 @@ img.img-fluid {
     font-size: 0.75rem;
   }
 }
-
