@@ -522,6 +522,28 @@ header.cabeçalho {
   font-weight: 600;
 }
 
+.date-item-destaque {
+  border-color: rgba(212, 175, 55, 0.7);
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.18);
+}
+
+.date-item-destaque .date-icon {
+  filter: drop-shadow(0 3px 8px rgba(212, 175, 55, 0.35));
+}
+
+.date-badge {
+  margin-left: auto;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.9);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22), rgba(201, 169, 96, 0.16));
+  color: #ffe6a6;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
 .date-item:hover .date-text {
   color: var(--primary);
 }
@@ -643,6 +665,11 @@ header.cabeçalho {
 
   .date-text {
     font-size: 1rem;
+  }
+
+  .date-badge {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.7rem;
   }
 }
 
